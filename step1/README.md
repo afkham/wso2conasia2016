@@ -8,8 +8,8 @@ mvn eclipse:eclipse
 or 
 mvn idea:idea
 
-4. 
+3. 
 Change the context from /service to /stockquote
 
-3.
+4.
 curl -v http://localhost:8080/stockquote
