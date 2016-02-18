@@ -1,5 +1,7 @@
 ## Demonstrates how to secure microservices using OAuth2
 
+This step requires running WSO2 Identity Server (IS). For more details, see [https://github.com/wso2/msf4j/tree/master/samples/security](https://github.com/wso2/msf4j/tree/master/samples/security)
+
 Commands
 --------
 
