@@ -27,6 +27,7 @@ import org.wso2.msf4j.analytics.metrics.MetricsInterceptor;
  */
 public class Application {
     public static void main(String[] args) {
+        System.setProperty("METRICS_REPORTING_CONSOLE_POLLINGPERIOD", "15"); // set the console printing interval to 15s
         new MicroservicesRunner()
                 .addInterceptor(new MetricsInterceptor().init(MetricReporter.CONSOLE, MetricReporter.JMX))
                 .deploy(new StockQuoteService())
