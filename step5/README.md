@@ -14,4 +14,5 @@ curl -v -k -X POST --basic -u bXlSnEjTJYK9wSmAaLk5JFIHy3ka:qIvB8p2PFaKt7bn6QeKSn
 See: [https://github.com/wso2/msf4j/tree/master/samples/security](https://github.com/wso2/msf4j/tree/master/samples/security) 
 
 3.
-curl -v -H "Authorization: Bearer <access-token-obtained in #2>" http://localhost:8080/stockquote/IBM
+curl -v -H "Authorization: Bearer 98dc95e8c067848017573d44c20189fe" http://localhost:8080/stockquote/IBM
+
